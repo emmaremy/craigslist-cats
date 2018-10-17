@@ -5,3 +5,4 @@ I'm hoping to rescue a cat in the next month or two. This very simple Slackbot t
 To use or adapt for your own purposes:
 * Install `requirements.txt` (uses Python 2.7)
 * Create a file named `secrets.yaml` containing your API token, following the example in `secrets.yaml`
+* Run `nohup python cats.py &` (if you close your terminal or restart or something you'll have to run it again)
