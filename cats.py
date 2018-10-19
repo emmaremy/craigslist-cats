@@ -7,7 +7,7 @@ import time
 def job():
     # Craigslist part
     cl = CraigslistCommunity(site='washingtondc', area='doc', category='pet')
-    results = cl.get_results(sort_by='newest', limit='20')
+    results = cl.get_results(sort_by='newest')
 
     # Slack part
     # (slack doesn't want me to use API tokens anymore but I don't care)
