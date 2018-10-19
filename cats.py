@@ -30,7 +30,8 @@ def job():
                     )
 
 # Scheduling to run every day
-schedule.every().day.at('12:00').do(job)
+schedule.every().day.at('9:00').do(job)
+schedule.every().day.at('14:00').do(job)
 
 while True:
     schedule.run_pending()
